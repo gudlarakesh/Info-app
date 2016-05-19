@@ -1,0 +1,18 @@
+.heading{
+  color: #fff;
+  padding: 5px;
+  background-color: #669;
+}
+footer{
+  background-color: #333;
+  color: #fff;
+  height: 40px;
+  padding-top: 10px;
+  text-align: center;
+  margin-top: 30px;
+}
+.article{
+  border-bottom: #ccc dotted 2px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}

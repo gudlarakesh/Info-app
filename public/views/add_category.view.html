@@ -1,0 +1,16 @@
+<div ng-controller="CategoriesCreateCtrl">
+  <h1>Add Category</h1>
+  <form ng-submit="addCategory()">
+  <div class="form-group">
+    <label>Category Name</label>
+    <input type="text" class="form-control" ng-model="name" name="name" placeholder="Enter name">
+  </div>
+  <div class="form-group">
+    <label>Description</label>
+    <textarea class="form-control" ng-model="description" name="description" placeholder="Enter description"></textarea>
+  </div>
+  
+  <button type="submit" class="btn btn-default">Submit</button>
+  <a class="btn btn-danger" href="/#categories">Cancel</a>
+</form>
+</div>
